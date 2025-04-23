@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: monospace;
+  /* font-size: 0.9rem; */
+  /* font-family: 'VT323', monospace; */
+  /* cursor: none; */
+  /* border: 1px solid red; */
+}
+
+a {
+  color: inherit;
+}
+
+li {
+  line-height: 1.5;
+}
+
+body {
+  height: 100svh;
+  padding: 1rem;
+}
+
+#input-commands {
+  width: 100%;
+  background: none;
+  border: none;
+  outline: none;
+  color: inherit;
+  font-size: inherit;
+  margin-right: 1rem;
+}
+
+#input-commands::placeholder {
+  color: inherit;
+  opacity: 0.5;
+  transition: all 0.3s ease-in-out;
+}
+
+#input-commands:focus::placeholder {
+  opacity: 0.2;
+}
+
+.container-output {
+  margin-top: 1rem;
+  padding-bottom: 2rem;
+}
+
+#output-commands {
+  list-style-type: none;
+}
