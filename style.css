@@ -20,6 +20,8 @@ li {
 body {
   height: 100svh;
   padding: 1rem;
+  background-color: #0f1414;
+  color: #c0ffff;
 }
 
 #input-commands {
